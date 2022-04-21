@@ -1,0 +1,50 @@
+body{
+    background-image: url("einar-storsul-hw2wB-Sqg0k-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.link {
+    color: brown;
+    display: table;
+    transform: scale(  0.5);
+} 
+
+img {
+    width:  150px;
+    height: 150px;
+    /*background-color: white;*/
+    /*border: 10px solid red ;
+    border-radius: 30px;*/
+}
+
+div {
+    width: 20%;
+    float: left;
+}
+
+.link:hover{
+    transform: scale(  0.7);
+    animation: havalanma;
+    animation-duration: 1s;
+}
+
+@keyframes alcalma {
+    from {transform: scale(0.7);}
+    to   {transform: scale(0.5);}
+    
+}@keyframes havalanma {
+    from {transform: scale( 0.5);}
+    to   {transform: scale( 0.7);}  
+      
+}
+
+h1{
+    color: cyan;
+    font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('\Quintessential-Regular.ttf')  format('truetype');
+}
