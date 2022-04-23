@@ -58,13 +58,13 @@ h1{
     img {
         width:  250px;
         height: 250px;
-        border-radius: 125px;
+        border-radius: 100%;
         background-color: white;
         border: 10px solid red ;
         border-radius: 30px;
     }
     h1 {
         scale: (5.0);
-        font-size: large;
+        font-size: xx-large;
     }
    }
