@@ -61,9 +61,8 @@ h1{
         border-radius: 100%;
         background-color: white;
         border: 10px solid red ;
-        border-radius: 30px;
     }
     h1 {
-        scale: (15.0);
+        scale: (4.0);
     }
    }
