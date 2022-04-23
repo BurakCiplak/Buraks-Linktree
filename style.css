@@ -8,6 +8,9 @@ body{
     color: brown;
     display: table;
     transform: scale(  0.5);
+    border-style: dashed;
+    border-color: blue;
+    border-width: 10px;
 } 
 
 img {
@@ -19,7 +22,7 @@ img {
 }
 
 div {
-    width: 33%;
+    width: 31%;
     float: left;
 }
 
@@ -51,12 +54,15 @@ h1{
   src: url('\Quintessential-Regular.ttf')  format('truetype');
 }
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (hover: none) and (pointer: coarse){
     img {
         width:  250px;
         height: 250px;
         /*background-color: white;*/
         /*border: 10px solid red ;
         border-radius: 30px;*/
+    }
+    h1 {
+        scale: (2.0);
     }
    }
