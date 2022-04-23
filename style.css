@@ -16,9 +16,9 @@ body{
 img {
     width:  150px;
     height: 150px;
-    /*background-color: white;*/
-    /*border: 10px solid red ;
-    border-radius: 30px;*/
+    border-radius: 50%;
+    background-color: white;
+    border: 10px none purple ;
 }
 
 div {
@@ -60,9 +60,9 @@ h1{
         height: 250px;
         border-radius: 50%;
         background-color: white;
-        border: 10px solid blue;
+        border: 10px solid red ;
     }
     h1 {
-        font-size: xx-large;
+        font-size: 500%;
     }
    }
