@@ -58,11 +58,11 @@ h1{
     img {
         width:  250px;
         height: 250px;
-        border-radius: 100%;
+        border-radius: 50%;
         background-color: white;
         border: 10px solid red ;
     }
     h1 {
-        scale: (4.0);
+        scale: (3.0);
     }
    }
