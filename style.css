@@ -33,7 +33,9 @@ div {
     from {transform: scale(0.7);}
     to   {transform: scale(0.5);}
     
-}@keyframes havalanma {
+}
+
+@keyframes havalanma {
     from {transform: scale( 0.5);}
     to   {transform: scale( 0.7);}  
       
@@ -48,3 +50,13 @@ h1{
   font-family: myFirstFont;
   src: url('\Quintessential-Regular.ttf')  format('truetype');
 }
+
+@media only screen and (max-device-width: 480px){
+    img {
+        width:  250px;
+        height: 250px;
+        /*background-color: white;*/
+        /*border: 10px solid red ;
+        border-radius: 30px;*/
+    }
+   }
