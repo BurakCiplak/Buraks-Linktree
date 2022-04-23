@@ -8,7 +8,7 @@ body{
     color: brown;
     display: table;
     transform: scale(  0.5);
-    border-style: dashed;
+    /*border-style: dashed;*/
     border-color: blue;
     border-width: 10px;
 } 
@@ -58,11 +58,13 @@ h1{
     img {
         width:  250px;
         height: 250px;
-        /*background-color: white;*/
-        /*border: 10px solid red ;
-        border-radius: 30px;*/
+        border-radius: 125px;
+        background-color: white;
+        border: 10px solid red ;
+        border-radius: 30px;
     }
     h1 {
         scale: (5.0);
+        font-size: large;
     }
    }
