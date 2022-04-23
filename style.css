@@ -9,7 +9,7 @@ body{
     display: table;
     transform: scale(  0.5);
     /*border-style: dashed;*/
-    border-color: blue;
+    border-color: green;
     border-width: 10px;
 } 
 
