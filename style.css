@@ -18,11 +18,31 @@ img {
     height: 150px;
     border-radius: 50%;
     background-color: white;
-    border: 10px solid red ;
+    border: 10px solid #C0C0C0;
+    animation: renkon;
+    animation-duration: 1s;
+}
+
+img:hover{
+    animation: renkoff;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    border: 10px solid #FFD700;
+}
+
+
+@keyframes renkon{
+    from {border: 10px solid #FFD700;}
+    to {border: 10px solid #C0C0C0;}
+}
+
+@keyframes renkoff{
+    from {border: 10px solid #C0C0C0;}
+    to {border: 10px solid #FFD700;}
 }
 
 div {
-    width: 33%;
+    width: 25%;
     float: left;
 }
 
@@ -130,5 +150,9 @@ h1{
         -1px -4px 2px #000,
         -1px 4px 2px #000,
         1px -4px 2px #000;
+    }
+    div {
+        width: 33%;
+        float: left;
     }
    }
