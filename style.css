@@ -140,6 +140,9 @@ h1{
         background-color: white;
         border: 10px solid #C0C0C0;
     }
+    .link:not(:hover){
+        border-style: none;
+    }
     h1 {
         font-size: 500%;
         color: white;
