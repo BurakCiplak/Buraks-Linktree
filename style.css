@@ -53,11 +53,6 @@ div {
     animation-duration: 1s;
 }
 
-.link:not(:hover){
-    transform: scale(  0.5);
-    animation: alcalma;
-    animation-duration: 0.5s;
-}
 
 @keyframes alcalma {
     from {transform: scale(0.7);}
@@ -139,9 +134,6 @@ h1{
         border-radius: 50%;
         background-color: white;
         border: 10px solid #C0C0C0;
-    }
-    .link:not(:hover){
-        border-style: none;
     }
     h1 {
         font-size: 500%;
