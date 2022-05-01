@@ -1,5 +1,5 @@
 body{
-    background-image: url("whitesrose.jpeg");
+    background-image: url("natr.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -65,38 +65,55 @@ div {
       
 }
 
+h1:hover{
+    animation:infinite;
+    animation-name: baslıkon;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+@keyframes baslıkon{
+    from{
+        color: silver;
+    }
+    to{
+        color: gold;
+    }
+}
+
 h1{
     color: white;
     font-family: myFirstFont;
-    text-shadow: 1px 1px 0 #000,
-    -1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000,
-    0px 1px 0 #000,
-    0px -1px 0 #000,
-    -1px 0px 0 #000,
-    1px 0px 0 #000,
-    2px 2px 0 #000,
-    -2px 2px 0 #000,
-    2px -2px 0 #000,
-    -2px -2px 0 #000,
-    0px 2px 0 #000,
-    0px -2px 0 #000,
-    -2px 0px 0 #000,
-    2px 0px 0 #000,
-    1px 2px 0 #000,
-    -1px 2px 0 #000,
-    1px -2px 0 #000,
-    -1px -2px 0 #000,
-    2px 1px 0 #000,
-    -2px 1px 0 #000,
-    2px -1px 0 #000,
-    -2px -1px 0 #000;/*Black border around text*/
+    font-size: 250%;
+    text-shadow: 1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black,
+    0px 1px 0 black,
+    0px -1px 0 black,
+    -1px 0px 0 black,
+    1px 0px 0 black,
+    2px 2px 0 black,
+    -2px 2px 0 black,
+    2px -2px 0 black,
+    -2px -2px 0 black,
+    0px 2px 0 black,
+    0px -2px 0 black,
+    -2px 0px 0 black,
+    2px 0px 0 black,
+    1px 2px 0 black,
+    -1px 2px 0 black,
+    1px -2px 0 black,
+    -1px -2px 0 black,
+    2px 1px 0 black,
+    -2px 1px 0 black,
+    2px -1px 0 black,
+    -2px -1px 0 black;/*Black border around text*/
 }
 
 @font-face {
   font-family: myFirstFont;
-  src: url('\Quintessential-Regular.ttf')  format('truetype');
+  src: url('static/Oswald-ExtraLight.ttf')  format('truetype');
 }
 
 @media only screen and (hover: none) and (pointer: coarse){
@@ -105,52 +122,52 @@ h1{
         height: 250px;
         border-radius: 50%;
         background-color: white;
-        border: 10px solid silver ;
+        border: 10px solid #C0C0C0;
     }
     h1 {
-        font-size: 500%;
+        /*font-size: 150%;*/
         color: white;
         font-family: myFirstFont;
-        text-shadow: 1px 1px 0 #000,
-        -1px 1px 2px #000,
-        1px -1px 2px #000,
-        -1px -1px 2px #000,
-        0px 1px 2px #000,
-        0px -1px 2px #000,
-        -1px 0px 2px #000,
-        1px 0px 2px #000,
-        2px 2px 2px #000,
-        -2px 2px 2px #000,
-        2px -2px 2px #000,
-        -2px -2px 2px #000,
-        0px 2px 2px #000,
-        0px -2px 2px #000,
-        -2px 0px 2px #000,
-        2px 0px 2px #000,
-        1px 2px 2px #000,
-        -1px 2px 2px #000,
-        1px -2px 2px #000,
-        -1px -2px 2px #000,
-        2px 1px 2px #000,
-        -2px 1px 2px #000,
-        2px -1px 2px #000,
-        -2px -1px 2px #000,
-        4px 1px 2px #000,
-        -4px -1px 2px #000,
-        -4px 1px 2px #000,
-        4px -1px 2px #000,
-        4px 1px 2px #000,
-        -4px -1px 2px #000,
-        -4px 1px 2px #000,
-        4px -1px 2px #000,
-        1px 4px 2px #000,
-        -1px -4px 2px #000,
-        -1px 4px 2px #000,
-        1px -4px 2px #000,
-        1px 4px 2px #000,
-        -1px -4px 2px #000,
-        -1px 4px 2px #000,
-        1px -4px 2px #000;
+        text-shadow: 1px 1px 0 black,
+        -1px 1px 2px black,
+        1px -1px 2px black,
+        -1px -1px 2px black,
+        0px 1px 2px black,
+        0px -1px 2px black,
+        -1px 0px 2px black,
+        1px 0px 2px black,
+        2px 2px 2px black,
+        -2px 2px 2px black,
+        2px -2px 2px black,
+        -2px -2px 2px black,
+        0px 2px 2px black,
+        0px -2px 2px black,
+        -2px 0px 2px black,
+        2px 0px 2px black,
+        1px 2px 2px black,
+        -1px 2px 2px black,
+        1px -2px 2px black,
+        -1px -2px 2px black,
+        2px 1px 2px black,
+        -2px 1px 2px black,
+        2px -1px 2px black,
+        -2px -1px 2px black,
+        4px 1px 2px black,
+        -4px -1px 2px black,
+        -4px 1px 2px black,
+        4px -1px 2px black,
+        4px 1px 2px black,
+        -4px -1px 2px black,
+        -4px 1px 2px black,
+        4px -1px 2px black,
+        1px 4px 2px black,
+        -1px -4px 2px black,
+        -1px 4px 2px black,
+        1px -4px 2px black,
+        1px 4px 2px black,
+        -1px -4px 2px black,
+        -1px 4px 2px black,
+        1px -4px 2px black;
     }
     div {
         width: 33%;
