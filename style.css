@@ -53,6 +53,12 @@ div {
     animation-duration: 1s;
 }
 
+.link:not(:hover){
+    transform: scale(  0.5);
+    animation: alcalma;
+    animation-duration: 0.5s;
+}
+
 @keyframes alcalma {
     from {transform: scale(0.7);}
     to   {transform: scale(0.5);}
@@ -81,7 +87,17 @@ h1:hover{
     }
 }
 
+@keyframes bb{
+    from{
+        color: gold
+    }
+    to{
+        color: white;
+    }
+}
 h1{
+    animation-name: bb;
+    animation-duration: 1s;
     color: white;
     font-family: myFirstFont;
     font-size: 250%;
@@ -113,7 +129,7 @@ h1{
 
 @font-face {
   font-family: myFirstFont;
-  src: url('static/Oswald-ExtraLight.ttf')  format('truetype');
+  src: url('DancingScript-SemiBold.ttf')  format('truetype');
 }
 
 @media only screen and (hover: none) and (pointer: coarse){
@@ -125,7 +141,7 @@ h1{
         border: 10px solid #C0C0C0;
     }
     h1 {
-        /*font-size: 150%;*/
+        font-size: 500%;
         color: white;
         font-family: myFirstFont;
         text-shadow: 1px 1px 0 black,
