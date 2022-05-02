@@ -135,6 +135,11 @@ h1{
         background-color: white;
         border: 10px solid #C0C0C0;
     }
+    body{
+        background-image: url("whitesrose.jpeg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
     h1 {
         font-size: 500%;
         color: white;
